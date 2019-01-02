@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="gify.gif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp.Views.Forms" Version="1.60.3" />
+    <PackageReference Include="TouchTracking.Forms" Version="1.0.0" />
+    <PackageReference Include="Xamarin.FFImageLoading" Version="2.2.25" />
+    <PackageReference Include="Xamarin.FFImageLoading.Forms" Version="2.2.25" />
+    <PackageReference Include="Xamarin.FFImageLoading.Svg" Version="2.2.25" />
+    <PackageReference Include="Xamarin.FFImageLoading.Svg.Forms" Version="2.2.25" />
+    <PackageReference Include="Xamarin.FFImageLoading.Transformations" Version="2.2.25" />
+    <PackageReference Include="Xamarin.Forms" Version="3.3.0.967583" />
+  </ItemGroup>
+</Project>
