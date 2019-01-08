@@ -1,7 +1,7 @@
 C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad.Android\bin\Debug\ScratchPad.Android.dll
 C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad.Android\bin\Debug\ScratchPad.Android.pdb
-C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad.Android\bin\Debug\com.companyname.ScratchPad.apk
-C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad.Android\bin\Debug\com.companyname.ScratchPad-Signed.apk
+C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad.Android\bin\Debug\com.YourNXT.ScratchPad.apk
+C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad.Android\bin\Debug\com.YourNXT.ScratchPad-Signed.apk
 C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad.Android\bin\Debug\ScratchPad.dll
 C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad.Android\bin\Debug\ScratchPad.pdb
 C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
@@ -14,7 +14,7 @@ C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad.Android\obj\Debug\81\XamlC.stamp
 C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad.Android\obj\Debug\81\ScratchPad.Android.csproj.CopyComplete
 C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad.Android\obj\Debug\81\ScratchPad.Android.dll
 C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad.Android\obj\Debug\81\ScratchPad.Android.pdb
-C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad.Android\obj\Debug\81\android\bin\com.companyname.ScratchPad.apk
+C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad.Android\obj\Debug\81\android\bin\com.YourNXT.ScratchPad.apk
 C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad.Android\obj\Debug\81\res\layout\tabbar.xml
 C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad.Android\obj\Debug\81\res\layout\toolbar.xml
 C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad.Android\obj\Debug\81\res\values\styles.xml

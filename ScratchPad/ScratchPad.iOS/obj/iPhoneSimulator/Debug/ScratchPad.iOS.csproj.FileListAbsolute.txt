@@ -77,3 +77,4 @@ C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad.iOS\obj\iPhoneSimulator\Debug\Xam
 C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad.iOS\obj\iPhoneSimulator\Debug\ScratchPad.iOS.csproj.CopyComplete
 C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad.iOS\obj\iPhoneSimulator\Debug\ScratchPad.iOS.exe
 C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad.iOS\obj\iPhoneSimulator\Debug\ScratchPad.iOS.pdb
+C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad.iOS\bin\iPhoneSimulator\Debug\ScratchPad.dll.mdb

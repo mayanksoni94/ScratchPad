@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.ScratchPad">
-    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="27" />
-    <application android:label="ScratchPad.Android"></application>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="1.1" package="com.YourNXT.ScratchPad" android:installLocation="auto" android:versionCode="2">
+	<uses-sdk android:minSdkVersion="21" />
+	<application android:label="ScratchPad.Android" android:icon="@mipmap/icon"></application>
 </manifest>

@@ -9,48 +9,51 @@
 
     <!--Creating a grid view with one row and column and then overlaping the canvas view and scratch view by giving
     them same column and row id-->
-    <Grid BackgroundColor="White">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
-        <Grid BackgroundColor="White" Grid.Row="0" Grid.Column="0">
+    <StackLayout Padding="0" Margin="0" BackgroundColor="White">
+        <Grid BackgroundColor="White" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
             <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
+            <Grid BackgroundColor="White" Grid.Row="0" Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
 
-            <ff:CachedImage x:Name="GIF"
+                <ff:CachedImage x:Name="GIF"
                             Grid.Row="0" 
                             Grid.Column="0"
                             HeightRequest="300" 
                             WidthRequest="300" 
                             Source="resource://ScratchPad.gify.gif"/>
 
-            <Label Grid.Row="1"
+                <Label Grid.Row="1"
                    Grid.Column="0" 
-                   Text="You earned some credit..!" 
+                   Text="Congratulations..!" 
                    TextColor="Black" 
                    FontAttributes="Bold" 
                    FontSize="Medium" 
                    HorizontalOptions="Center"/>
 
-        </Grid>
-        <skia:SKCanvasView x:Name="canvasView" 
+            </Grid>
+            <skia:SKCanvasView x:Name="canvasView" 
                            Grid.Row="0" 
                            Grid.Column="0" 
                            HorizontalOptions="FillAndExpand" 
                            VerticalOptions="FillAndExpand"
                            PaintSurface="CanvasView_PaintSurface"/>
-        <Grid.Effects>
-            <tt:TouchEffect Capture="True"
+            <Grid.Effects>
+                <tt:TouchEffect Capture="True"
                             TouchAction="TouchEffect_TouchAction" />
-        </Grid.Effects>
+            </Grid.Effects>
 
-    </Grid>
+        </Grid>
+        <Button Text="Enter" x:Name="btn" BackgroundColor="White" BorderColor="Transparent" Margin="0" IsEnabled="False" IsVisible="False" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand" HeightRequest="40" Clicked="Btn_Clicked"/>
+    </StackLayout>
 </ContentPage>

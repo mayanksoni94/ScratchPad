@@ -19,11 +19,15 @@ namespace ScratchPad
         List<SKPath> completedPaths = new List<SKPath>();
         string height;
         string width;
+       
         //color is used to draw rectangle
         SKPaint color = new SKPaint
         {
             Color = SKColors.CornflowerBlue
         };
+        
+        SKRect rect = new SKRect();
+        
 
         // paint is used to create skpath
         SKPaint paint = new SKPaint
@@ -41,6 +45,8 @@ namespace ScratchPad
         public MainPage()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
+            
 
         }
 
@@ -54,17 +60,40 @@ namespace ScratchPad
             float w = float.Parse(width);
             float h = float.Parse(height);
             //canvas.DrawRect(0, 0,w,h, color);
-            canvas.DrawRect(0, 0, 2000, 2500, color);
-
+            canvas.DrawRect(0, 0, 2000, 2400, color);
+            //canvas.DrawRect(10, 10, 1000, 1000, color1);
+            var area = rect.Width * rect.Height;
             foreach (SKPath path in completedPaths)
             {
                 canvas.DrawPath(path, paint);
+                rect.Size = new SKSize(100, 100);
+                path.GetBounds(out rect);
+                
+
+                /*if(area >= 1500000)
+                {
+                    btn.IsVisible = true;
+                    btn.IsEnabled = true;
+                }*/
 
             }
 
             foreach (SKPath path in inProgressPaths.Values)
             {
                 canvas.DrawPath(path, paint);
+                rect.Size = new SKSize(100, 100);
+                path.GetBounds(out rect);
+                
+
+                if (area >= 1100000)
+                {
+                    btn.IsVisible = true;
+                    btn.IsEnabled = true;
+                   /* color = new SKPaint
+                    {
+                        Color = SKColors.White
+                    };*/                   
+                }
             }
 
 
@@ -99,6 +128,7 @@ namespace ScratchPad
                     {
                         completedPaths.Add(inProgressPaths[args.Id]);
                         inProgressPaths.Remove(args.Id);
+                        
                         canvasView.InvalidateSurface();
                     }
                     break;
@@ -117,6 +147,11 @@ namespace ScratchPad
         {
             return new SKPoint((float)(canvasView.CanvasSize.Width * pt.X / canvasView.Width),
                                (float)(canvasView.CanvasSize.Height * pt.Y / canvasView.Height));
+        }
+
+        private void Btn_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Page1());
         }
     }
 }

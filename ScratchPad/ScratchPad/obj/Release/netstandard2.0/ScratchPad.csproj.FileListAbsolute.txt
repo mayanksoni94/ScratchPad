@@ -1,0 +1,13 @@
+C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad\bin\Release\netstandard2.0\ScratchPad.deps.json
+C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad\bin\Release\netstandard2.0\ScratchPad.dll
+C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad\bin\Release\netstandard2.0\ScratchPad.pdb
+C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad\obj\Release\netstandard2.0\Page1.xaml.g.cs
+C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad\obj\Release\netstandard2.0\ScratchPad.csproj.CoreCompileInputs.cache
+C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad\obj\Release\netstandard2.0\ScratchPad.AssemblyInfoInputs.cache
+C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad\obj\Release\netstandard2.0\ScratchPad.AssemblyInfo.cs
+C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad\obj\Release\netstandard2.0\XamlC.stamp
+C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad\obj\Release\netstandard2.0\ScratchPad.dll
+C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad\obj\Release\netstandard2.0\ScratchPad.pdb
+C:\Mayank\POC\ScratchPad\ScratchPad\ScratchPad\obj\Release\netstandard2.0\ScratchPad.csprojAssemblyReference.cache
